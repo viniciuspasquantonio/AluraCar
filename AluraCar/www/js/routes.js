@@ -6,5 +6,10 @@ angular.module('starter')
 	 	url : '/listagem',
 	    templateUrl : 'templates/listagem.html',
 	    controller: 'ListagemController'
+	})
+	.state('carroescolhido',{
+	 	url : '/carroescolhido/:carro',
+	    templateUrl : 'templates/carroescolhido.html',
+	    controller: 'CarroEscolhidoController'
 	});
 });
